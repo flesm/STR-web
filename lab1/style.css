@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    border: none;
+}
+
+table td {
+    border: none;
+}
+
+img {
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover;
+    margin-right: 10px; 
+}
