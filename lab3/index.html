@@ -19,7 +19,7 @@
             <input type="email" id="email" name="email" required>
             
             <label for="phone">Тэлефон:</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" required>
             
             <label for="password">Пароль:</label>
             <input type="password" id="password" name="password" required>
@@ -28,24 +28,19 @@
         <fieldset>
             <legend>Інфармацыя аб мерапрыемствы</legend>
             
-            <label for="eventType">Тып мерапрыемства:</label>
-            <input type="radio" id="conference" name="eventType" value="conference" checked>
-            <label for="conference">Канферэнцыя</label>
-            <input type="radio" id="webinar" name="eventType" value="webinar">
-            <label for="webinar">Вебінар</label>
-            <input type="radio" id="workshop" name="eventType" value="workshop">
-            <label for="workshop">Масцер-клас</label>
+            <label>Тып мерапрыемства:</label><br>
+            <label><input type="radio" id="conference" name="eventType" value="conference" checked> Канферэнцыя</label>
+            <label><input type="radio" id="webinar" name="eventType" value="webinar"> Вебінар</label>
+            <label><input type="radio" id="workshop" name="eventType" value="workshop"> Масцер-клас</label>
             
-            <label for="newsletter">Падпісацца на навіны:</label>
-            <input type="checkbox" id="newsletter" name="newsletter">
+            <label><input type="checkbox" id="newsletter" name="newsletter"> Падпісацца на навіны</label>
             
             <label for="photo">Загрузіце вашу фотку:</label>
             <input type="file" id="photo" name="photo">
         </fieldset>
 
-        <input type="submit" value="Отправить">
-        <input type="reset" value="Сбросить">
+        <input type="submit" value="Адправіць">
+        <input type="reset" value="Зкінуць">
     </form>
-
 </body>
 </html>
