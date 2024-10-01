@@ -78,7 +78,7 @@ a:hover::after {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  animation: drop 1.5s ease-in-out infinite;
+  animation: drop 1.5s ease-in-out forwards;
 }
 
 @keyframes drop {
